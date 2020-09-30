@@ -29,6 +29,16 @@
         <servlet-name>ResponseDemo2</servlet-name>
         <servlet-class>com.zhangzemin.ResponseDemo2</servlet-class>
     </servlet>
+
+    <servlet>
+        <servlet-name>ResponseDemo3</servlet-name>
+        <servlet-class>com.zhangzemin.ResponseDemo3</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>ResponseDemo4</servlet-name>
+        <servlet-class>com.zhangzemin.ResponseDemo4</servlet-class>
+    </servlet>
     <!--    <servlet-mapping>-->
     <!--        <servlet-name>ServletDemo1</servlet-name>-->
     <!--        &lt;!&ndash;-->
@@ -75,6 +85,16 @@
     <servlet-mapping>
         <servlet-name>ResponseDemo2</servlet-name>
         <url-pattern>/ResponseDemo2</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ResponseDemo3</servlet-name>
+        <url-pattern>/ResponseDemo3</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ResponseDemo4</servlet-name>
+        <url-pattern>/ResponseDemo4</url-pattern>
     </servlet-mapping>
 
 </web-app>
