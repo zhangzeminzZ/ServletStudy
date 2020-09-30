@@ -39,6 +39,42 @@
         <servlet-name>ResponseDemo4</servlet-name>
         <servlet-class>com.zhangzemin.ResponseDemo4</servlet-class>
     </servlet>
+
+    <servlet>
+        <servlet-name>DrawImage</servlet-name>
+        <servlet-class>com.zhangzemin.DrawImage</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>CheckServlet</servlet-name>
+        <servlet-class>com.zhangzemin.CheckServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>RequestDemo1</servlet-name>
+        <servlet-class>com.zhangzemin.RequestDemo1</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>RequestDemo2</servlet-name>
+        <servlet-class>com.zhangzemin.RequestDemo2</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>RequestDemo3</servlet-name>
+        <servlet-class>com.zhangzemin.RequestDemo3</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>RequestDemo4</servlet-name>
+        <servlet-class>com.zhangzemin.RequestDemo4</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>RequestDemo5</servlet-name>
+        <servlet-class>com.zhangzemin.RequestDemo5</servlet-class>
+    </servlet>
+
     <!--    <servlet-mapping>-->
     <!--        <servlet-name>ServletDemo1</servlet-name>-->
     <!--        &lt;!&ndash;-->
@@ -97,4 +133,38 @@
         <url-pattern>/ResponseDemo4</url-pattern>
     </servlet-mapping>
 
+    <servlet-mapping>
+        <servlet-name>DrawImage</servlet-name>
+        <url-pattern>/DrawImage</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>CheckServlet</servlet-name>
+        <url-pattern>/CheckServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>RequestDemo1</servlet-name>
+        <url-pattern>/RequestDemo1</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>RequestDemo2</servlet-name>
+        <url-pattern>/RequestDemo2</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>RequestDemo3</servlet-name>
+        <url-pattern>/RequestDemo3</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>RequestDemo4</servlet-name>
+        <url-pattern>/RequestDemo4</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>RequestDemo5</servlet-name>
+        <url-pattern>/RequestDemo5</url-pattern>
+    </servlet-mapping>
 </web-app>
