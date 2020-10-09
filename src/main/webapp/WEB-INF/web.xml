@@ -75,6 +75,16 @@
         <servlet-class>com.zhangzemin.RequestDemo5</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>CookieDemo1</servlet-name>
+        <servlet-class>com.zhangzemin.CookieDemo1</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>CookieDemo2</servlet-name>
+        <servlet-class>com.zhangzemin.CookieDemo2</servlet-class>
+    </servlet>
+
     <!--    <servlet-mapping>-->
     <!--        <servlet-name>ServletDemo1</servlet-name>-->
     <!--        &lt;!&ndash;-->
@@ -166,5 +176,15 @@
     <servlet-mapping>
         <servlet-name>RequestDemo5</servlet-name>
         <url-pattern>/RequestDemo5</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>CookieDemo1</servlet-name>
+        <url-pattern>/CookieDemo1</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>CookieDemo2</servlet-name>
+        <url-pattern>/CookieDemo2</url-pattern>
     </servlet-mapping>
 </web-app>
